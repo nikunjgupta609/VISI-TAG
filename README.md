@@ -37,18 +37,10 @@ cd VISI-TAG
 
 ---
 
-## Resources
-- [PyTorch Documentation](https://pytorch.org/docs/stable/index.html)
-- [FastAPI Documentation](https://fastapi.tiangolo.com/)
-- [Next.js Documentation](https://nextjs.org/docs)
-- [Meesho Challenge Details](https://meesho.com/data-challenge)
-- [Image Classification Techniques](https://arxiv.org/abs/1512.03385)
+## Download dataset from here:
+https://www.kaggle.com/competitions/visual-taxonomy/data
 
-## Future Improvements
-- **Expand Model**: Support more product categories beyond fashion.
-- **Integrate NLP**: Combine text and image data for improved accuracy.
-- **Cloud Deployment**: Deploy on AWS/GCP for scalability.
 
 ---
-**Contributions & Issues:** If you find a bug or want to enhance the model, feel free to contribute via pull requests. 🚀
+**If you find a bug or want to enhance the model**, Happy coding! 🚀
 

@@ -25,22 +25,17 @@ To set up VISI-TAG on your local system, follow these steps:
 git clone https://github.com/your-username/VISI-TAG.git
 cd VISI-TAG
 ```
+1. Download repository
+2. Install Parcel by typing the following command: npm install parcel -g
+3. Make sure to install dependencies: open project in VSCode -> open command line -> type: npm install
+4. Run Parcel by typing this command: npm parcel ./src/index.html
 
 
 ## Evaluation Metrics
-Submissions are evaluated based on:
 - **Harmonic Mean of Macro & Micro F1-Score** for each attribute
 - Averaging F1-scores across categories and attributes
-- A strict validation system that prevents null values
 
-## Expected Submission Format
-Predictions should be submitted in the following format:
-```
-id, Category, len, attr_1, attr_2, ..., attr_10
-1, Sarees, 10, 'same as border', 'woven design', 'big border', ..., 'no'
-2, Men Tshirts, 5, 'black', 'round', 'printed', ..., 'dummy_value'
-```
-Ensure to fill missing attributes with **dummy_value** to avoid errors.
+---
 
 ## Resources
 - [PyTorch Documentation](https://pytorch.org/docs/stable/index.html)
